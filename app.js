@@ -98,6 +98,8 @@ countBtn.addEventListener(
 
         let vowelCounterResult = document.createElement("h2")
 
+        let bar = document.createElement("hr")
+
         wordCountResult.classList.add("word-count-result")
 
         sentenceCountResult.classList.add("sentence-count-result")
@@ -116,6 +118,8 @@ countBtn.addEventListener(
         results.appendChild(sentenceCountResult)
 
         results.appendChild(vowelCounterResult)
+
+        results.appendChild(bar)
 
         inputStr.textContent = ""
         //for counting words
