@@ -42,7 +42,7 @@ function vowelCounter(baseStr){
 // sentence count 
 
 function sentenceCountFinder(baseStr){
-    let count = 1 
+    let count = 0
     for(let i = 0 ; i < baseStr.length ; i++){
        
         if(baseStr[i] === "." || baseStr[i] === "!" || baseStr[i] ==="?"){
